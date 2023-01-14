@@ -9,13 +9,13 @@ public class Assignment1 {
 
 
          int x = 0;
-         byte y = 12;
-         short s = 3;
-         long l = 5;
-         float f = 4.5F;
-         double d = 3.6;
+         byte y = 0;
+         short s = 0;
+         long l = 0;
+         float f = 0.0F;
+         double d = 0.0;
          char ch = 'R';
-         boolean b = true;
+         boolean b = false;
 
          System.out.println(x);
          System.out.println(y);
