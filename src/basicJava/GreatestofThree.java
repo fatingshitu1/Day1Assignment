@@ -7,19 +7,18 @@ public class GreatestofThree {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Check the Number");
         int num = scanner.nextInt();
-        int x=5;
-        int y=10;
-        if (num>x){
-            if (num>y){
+        int x = 5;
+        int y = 10;
+        if (num > x) {
+            if (num > y) {
                 System.out.println("the num is greater than x and y");
-            }else{
+            } else {
                 System.out.println("y is greater than num and x");
             }
-
         } else {
-            if (x>y){
+            if (x > y) {
                 System.out.println("the x is greater than num and y");
-            }else{
+            } else {
                 System.out.println("y is greater than num and x");
             }
         }
