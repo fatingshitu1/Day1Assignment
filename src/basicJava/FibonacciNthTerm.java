@@ -1,6 +1,7 @@
 package basicJava;
 
 public class FibonacciNthTerm {
+
     public static void main(String[] args) {
         int num = 10;
         int a = 0, b = 1;

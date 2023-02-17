@@ -3,8 +3,6 @@ package basicJava;
 import java.util.Scanner;
 
 public class EvenoddNumber {
-    public static final int INT = 0;
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Number =>");

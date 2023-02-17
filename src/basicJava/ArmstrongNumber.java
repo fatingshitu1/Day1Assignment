@@ -7,15 +7,22 @@ public class ArmstrongNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         int num = scanner.nextInt();
+        int temp = num;
+        int temp2 = num;
         int rem;
-        int arm = 0;
-        int temp = 0;
-        num = temp;
-        while (num > 0) {
-            rem = num % 10;
-            arm = (rem * rem * rem) + arm;
+        int armstrongNum = 0;
+        int count = 0;
+        while (num != 0){
+            num = num/10;
+            count++;
         }
-        if (num== temp) {
+        while (temp2!=0){
+            rem = num%10;
+            num = num/10;
+             armstrongNum += Math.pow(rem,count);
+            System.out.println(armstrongNum);
+        }
+        if (temp== armstrongNum) {
             System.out.println("Enter number is Armstrong Number");
         } else {
             System.out.println("Enter number is not Armstrong Number");
